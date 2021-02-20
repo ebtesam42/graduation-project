@@ -1,0 +1,12 @@
+CREATE TABLE [dbo].[Case] (
+    [id]           INT           NOT NULL,
+    [case_name]    NVARCHAR (50) NOT NULL,
+    [date_of_case] NVARCHAR (50) NOT NULL,
+    [lawyer_id]    INT           NOT NULL,
+    [trainee_id]   INT           NOT NULL,
+    [client_id]    INT           NOT NULL,
+    PRIMARY KEY CLUSTERED ([id] ASC),
+    CONSTRAINT [fk_CaseCliID] FOREIGN KEY ([client_id]) REFERENCES [dbo].[Client] ([id]),
+    CONSTRAINT [fk_CaseLawID] FOREIGN KEY ([lawyer_id]) REFERENCES [dbo].[Lawyer] ([id]),
+    CONSTRAINT [fk_CaseTraID] FOREIGN KEY ([trainee_id]) REFERENCES [dbo].[Trainee] ([id])
+);
