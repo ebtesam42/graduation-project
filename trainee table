@@ -1,0 +1,13 @@
+CREATE TABLE [dbo].[Trainee] (
+    [id]              INT           NOT NULL,
+    [fname]           NVARCHAR (50) NOT NULL,
+    [region]          NVARCHAR (50) NOT NULL,
+    [email]           NVARCHAR (50) NOT NULL,
+    [password]        NVARCHAR (50) NOT NULL,
+    [phone]           NVARCHAR (50) NOT NULL,
+    [graduation_year] NVARCHAR (50) NOT NULL,
+    [university_name] NVARCHAR (50) NOT NULL,
+    [major_type]      NVARCHAR (50) NOT NULL,
+    [username]        NVARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([id] ASC)
+);
