@@ -75,61 +75,105 @@
 </div>
 
 </nav>
-            
-‬ <!-- Header -->
-  <header class="masthead">
-    <div class="container">
-      <div class="intro-text">
-      </div>
-    </div>
-  </header>
+           
+
+             <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Welcome To your home!</div>
+                <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+            </div>
+        </header>
+            </br></br></br></br>
         </div>
     </form>
      <!-- Services-->
-        <section class="page-section" id="services">
+      <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">let us help you</h2>
+                    <h3 class="section-subheading text-muted">we are going to save youe time and money.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/team/My-rights.png" alt="" />
+                            </a>
+                            
+                        </div>
+                    </div>
+                    </section>
+
+           
+     <section class="page-section" id="services">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Welcome</h2>
-                    <h3 class="section-subheading text-muted"> welcome to your home.</h3>
+                    <h3 class="section-subheading text-muted">please choose from these icones.</h3>
                 </div>
                 <div class="row text-center">
-                    <a href="translate1.aspx">
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
-                            <i class="fas fa-gavel"></i>
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-gavel fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">Lawyer</h4>
-                        <p class="text-muted">We offer the best lawyers with high experience through a platform that brings them together and facilitates the communication process
-.</p>
-                        
-                        </a>
+                        <h4 class="my-3"><a href="translate1.aspx">Lawyer</a></h4>
+                        <p class="text-muted">We offer the best lawyers with high experience through a platform that brings them together and facilitates the communication process</p>
                     </div>
-                    <a href="translate2.aspx">
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
-                           <i class="fas fa-graduation-cap"></i>
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">Trainee</h4>
-                        <p class="text-muted">offer an opportunity for trainees to start training under the supervision of lawyers and gain experience
-.</p>
-                        </a>
+                        <h4 class="my-3"><a href="translate2.aspx">Trainee</a></h4>
+                        <p class="text-muted">offer an opportunity for trainees to start training under the supervision of lawyers and gain experience.</p>
                     </div>
-                       
-                    <a href="translate3.aspx"
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
-                         <i class="fas fa-user"></i>
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-user fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">Client</h4>
-                        <p class="text-muted">We save your time and effort through our platform
-.</p>
-                        </a>
+                        <h4 class="my-3"><a href="translate3.aspx"> Client</a></h4>
+                        <p class="text-muted">We save your time and effort through our platform.</p>
                     </div>
                 </div>
-
-
             </div>
         </section>
+
+
+             
+     <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">More services</h2>
+                </div>
+                </br>
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-ad fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3"><a href="translate1.aspx">Advertisment</a></h4>
+                        <p class="text-muted">you can take a look about our ads</p>
+                    </div>
+                    <div class="col-md-6">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class=" fas fa-thumbs-up fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3"><a href="translate2.aspx">Know your rights</a></h4>
+                        <p class="text-muted">Be aware about your rights.</p>
+                    </div>
+                 
+                </div>
+            </div>
+        </section>
+
+
     <section class="page-section bg-light" id="team">
             <div class="container">
                 <div class="text-center">
