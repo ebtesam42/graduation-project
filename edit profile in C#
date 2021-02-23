@@ -1,0 +1,48 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Data.SqlClient;
+
+namespace law
+{
+    public partial class editprofile : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            SqlConnection conn = new SqlConnection(@"Data Source=.\Sqlexpress;Initial Catalog=lawbrella;Integrated Security=True");
+            String sql;
+            sql = "Update [Lawyer] set fname='" + TextBox2.Text + "',gender='" + TextBox3.Text + "',email='" + TextBox4.Text + "',password='" + TextBox5.Text + "',phone='" + TextBox6.Text + "',job_title='" + TextBox7.Text + "',username='" + TextBox8.Text + "',lawyers_license_number= '"+TextBox9.Text+"' Where id ='"+TextBox1.Text+"'";
+            SqlCommand comm = new SqlCommand(sql, conn);
+
+            try
+            {
+                conn.Open();
+                comm.ExecuteNonQuery();
+                TextBox1.Text = "";
+                TextBox2.Text = "";
+                TextBox3.Text = "";
+                TextBox4.Text = "";
+                TextBox5.Text = "";
+                TextBox6.Text = "";
+                TextBox7.Text = "";
+                TextBox8.Text = "";
+                TextBox9.Text = "";
+                Label1.Text = "Changes saved";
+            }
+            catch (Exception ex)
+            { Label1.Text = "Changes were not saved"; }
+            finally
+            { conn.Close(); }
+
+           
+        }
+    }
+}
