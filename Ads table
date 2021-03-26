@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[Ads] (
+    [Id]            INT           IDENTITY (1, 1) NOT NULL,
+    [ImageUrl]      NVARCHAR (50) NOT NULL,
+    [AlternateText] NVARCHAR (50) NOT NULL,
+    [Impressions]   INT           NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
