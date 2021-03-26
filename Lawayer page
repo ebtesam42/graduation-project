@@ -93,62 +93,67 @@
                     <h2 class="section-heading text-uppercase">Welcome</h2>
                     <h3 class="section-subheading text-muted"> welcome to your profile.</h3>
                 </div>
-                <section><div class="row text-center">
-                    <a href="#.aspx">
-                    <div class="col-md-4">
+                <section style="padding: 2px; margin: 250px">
+                    <div class="row text-center">
+                        <div class="col-md-4">
                         <span class="fa-stack fa-4x">
-                            <i class="fas fa-user-edit"></i>
-                        </span>
-                        <h2 class="my-3">Edit your profile</h2>
+                             <i class="fas fa-user-edit"></i>
+                    <a href="editprofile.aspx">
+                            <h4 class="my-3">Edit your profile</h4> </a>
+                        </span> 
+                         
                         
 </div>
-                        </a>
-                   
-                        </a>
+
+                       <div class="row text-center">
+                     <div class="col-md-4">
+                          <a href="#.aspx">
+                    <span class="fa-stack fa-4x">
+                    <i class="fas fa-user-edit"></i>
+                        </span>
+                        
+                                <h4 class="my-3"> Edit your CV </h4></a>
+</div></div>
+                
+                       
                         <div class="row text-center">
-                    <a href="#.aspx">
                     <div class="col-md-4">
+                         <a href="#.aspx">
                         <span class="fa-stack fa-4x">
-                       <i class="fas fa-users"></i>
+                      <i class="fas fa-edit"></i>
+       </span>                  
 
-                        </span>
-                        <h2 class="my-3">Accept trainees </h2>
+                        <h4 class="my-3">Your schedule </h4></a>
+</div></div>
+                   
                         
-</div>
-                        </a>
-
-                             <div class="row text-center">
+</div> </section>
+          <section style="padding: 2px;margin: 300px">             
+         <div class="row text-center">
+                   <div class="col-md-4">
                     <a href="#.aspx">
-                    <div class="col-md-4">
                         <span class="fa-stack fa-4x">
-                       <i class="fas fa-users"></i>
-
-                        </span>
-                        <h2 class="my-3">Select Clients </h2>
+                       <i class="fas fa-balance-scale-right"></i> </span>
+                        <h4 class="my-3"> Know your right </h4> </a>
                         
 </div>
-                        </a>
-                                <div class="row text-center">
-                    <a href="#.aspx">
+                 
+                    <div class="row text-center">
                     <div class="col-md-4">
+                    <a href="addAds.aspx">
                         <span class="fa-stack fa-4x">
-                      <i class="fas fa-file-signature"></i>
-
+                       <i class="fas fa-audio-description"></i>
                         </span>
-                        <h2 class="my-3">Edit case file </h2>
+                        <h4 class="my-3"> Add ads </h4> </a>
                         
 </div>
-                        </a>
-                                      
-                        
-</div>
-                        </a></section>
+                       
 
-                    </div>
-                                    
+                        </section>
+                    
+                        
+</div>  </section>                                  
                                         
-
-
 
 
 </body>
