@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title><meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+
+
+</head>
+
+   
+                     <div>
+
+            <!-- Navigation -->
+
+<nav style="background-color: rgba(0,0,0,0.5); height:45px;" class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+
+<div class="container">
+
+<a class="navbar-brand js-scroll-trigger" href="#page-top">Lawbrella</a></br></br>
+
+
+
+
+<i class="fas fa-bars"></i>
+
+
+<div class="collapse navbar-collapse" id="navbarResponsive">
+
+<ul class="navbar-nav text-uppercase ml-auto">
+
+<li class="nav-item">
+
+<a class="nav-link js-scroll-trigger" href="home.aspx">Home</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link js-scroll-trigger" href="aboutus">About us</a>
+
+
+
+<li class="nav-item">
+
+<a class="nav-link js-scroll-trigger" href="ourpolicy">Our policy </a>
+
+&nbsp;</li>
+
+<li class="nav-item">
+
+<a class="nav-link js-scroll-trigger" href="#to contact">FAQ</</a>
+
+</li>
+
+
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+‬ <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+      </div>
+    </div>
+  </header></div>
+                         <body>
+
+                         <form id="form1" runat="server">        <div>
+
+            <center><asp:Label ID="Label1" runat="server" Text="Lawyers List" Font-Size="X-Large" Font-Bold="True" Font-Italic="True" ></asp:Label></center>
+            <hr /><center>
+                <asp:DataList ID="DataList1" runat="server" RepeatColumns="3" CellPadding="2">
+<ItemTemplate>
+    <table>
+        <tr>
+            
+            <td> <asp:Image ID="Image1" runat="server" ImageUrl='C#<%#Eval("img") %>' /></td>
+        </tr>
+        <br /><br />
+        <tr>
+            
+            <br />
+            <td> <%#Eval("fname") %> </td>
+        </tr>
+        <br /><br />
+        <tr>
+            
+            <br />
+            <td> <%#Eval("job_title") %> </td>        
+
+        </tr>
+        <tr>
+            <td>
+                <asp:Button ID="Button1" runat="server" Text="View profile" Font-Bold="True" ForeColor="#009999"></asp:Button>
+            </td>
+        </tr>
+        
+    </table>
+</ItemTemplate>
+
+            </asp:DataList></center>
+        
+        </div>
+    </form>
+</body>
+</html>
