@@ -1,0 +1,6 @@
+CREATE TABLE [dbo].[Comm]
+(
+	[Name] NVARCHAR(50) NOT NULL PRIMARY KEY, 
+    [Email] NVARCHAR(50) NULL, 
+    [Comment] NVARCHAR(MAX) NULL 
+)
