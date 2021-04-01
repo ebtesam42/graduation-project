@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace law
+{
+    public partial class traineEditpro : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+       
+
+        protected void Button1_Click1(object sender, EventArgs e)
+        {
+            SqlConnection conn = new SqlConnection(@"Data Source=.\Sqlexpress;Initial Catalog=lawbrella;Integrated Security=True");
+            String sql;
+            sql = "Update [Trainee] set fname='" + TextBox1.Text + "',region='" + TextBox2.Text + "',password='" + TextBox4.Text + "',phone='" + TextBox5.Text + "',graduation_year='" + TextBox6.Text + "',university_name='" + TextBox7.Text + "',major_type='" + TextBox8.Text + "',username='" + TextBox8.Text + "'where email='" + TextBox3.Text + "'";
+            SqlCommand comm = new SqlCommand(sql, conn);
+            try
+            {
+                conn.Open();
+                comm.ExecuteNonQuery();
+                TextBox1.Text = "";
+                TextBox2.Text = "";
+                TextBox3.Text = "";
+                TextBox4.Text = "";
+                TextBox5.Text = "";
+                TextBox6.Text = "";
+                TextBox7.Text = "";
+                TextBox8.Text = "";
+
+                Label10.Text = "Changes saved";
+            }
+            catch (Exception ex)
+            { Label10.Text = "Changes were not saved"; }
+            finally
+            { conn.Close(); }
+        }
+    }
+    }
