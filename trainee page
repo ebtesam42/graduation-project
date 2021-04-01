@@ -79,45 +79,46 @@
                 <div class="masthead-subheading">Welcome To your home!</div>
                 <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
             </div>
-        </header>
+        </header><br />
+             <div class="text-center">
+           <h3 style="color:black;"> Welcome to your profile </h3>
+            </div>
         <div class="row text-center">
-                    <div class="col-md-3">
+            <div class="col-md-3">
+              <a href="traineEditpro.aspx">
                         <span class="fa-stack fa-4x">
-                            <i class="fas fa-user-edit"></i>
-                            <a href="#.aspx">
-             <h4 class="my-3">Edit profile</h4>
+                            <i class="fas fa-user-edit"></i>      </span>
 
-                        </span>
+             <h4 class="my-3">Edit profile</h4></a>
+
                     </div>
                     <div class="col-md-3">
+                         <a href="#.aspx">
                         <span class="fa-stack fa-4x">
-                    <i class="fas fa-user-edit"></i>
-                             <a href="#.aspx">
-                       <h4 class="my-3"> Edit your CV </h4></a>
-                        </span>
+                        <i class="fas fa-user-edit"></i>      </span>
+
+             <h4 class="my-3">Add your CV </h4></a>
                     </div>
              <div class="col-md-3">
+                 <a href="selectinglawyer.aspx">
                         <span class="fa-stack fa-4x">
-                     <i class="fas fa-search"></i>
-                             <a href="selectinglawyer.aspx">
+                     <i class="fas fa-search"></i></span>
+                          
                        <h4 class="my-3"> Search a lawyer </h4></a>
-                        </span>
                     </div>
                    
-            <div class="col-md-3">
+            <div class="col-md-2">
+                  <a href="#.aspx">
                         <span class="fa-stack fa-4x">
-                       <i class="fas fa-balance-scale-right"></i> 
-                             <a href="#.aspx">
+                       <i class="fas fa-balance-scale-right"></i> </span>
                                   <h4 class="my-3"> View know your right  </h4></a>
-                        </span>
                     </div>
-             <div class="col-md-3">
+             <div class="col-md-12">
+                      <a href="ads page.aspx">
                         <span class="fa-stack fa-4x">
                        <i class="fas fa-audio-description"></i>
-                            <a href="ads page.aspx">
-             <h4 class="my-3"> View ads page </h4>
-
                         </span>
+                        <h4 class="my-3"> View ads page </h4> </a>
                     </div>
                 </div>
         
