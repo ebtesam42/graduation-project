@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" /></head>
+<body>
+    <form id="form1" runat="server">
+         <div>
+            
+            <!-- Navigation -->
+
+<nav style="background-color: rgba(0,0,0,0.5); height:45px;" class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+
+<div class="container">
+
+<a class="navbar-brand js-scroll-trigger" href="#page-top">Lawbrella</a></br></br>
+
+
+
+
+<i class="fas fa-bars"></i>
+
+
+<div class="collapse navbar-collapse" id="navbarResponsive">
+
+<ul class="navbar-nav text-uppercase ml-auto">
+
+<li class="nav-item">
+
+<a class="nav-link js-scroll-trigger" href="home.aspx">Home</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link js-scroll-trigger" href="aboutus">About us</a>
+
+
+
+<li class="nav-item">
+
+<a class="nav-link js-scroll-trigger" href="ourpolicy.aspx">Our policy </a>
+
+&nbsp;</li>
+
+<li class="nav-item">
+
+<a class="nav-link js-scroll-trigger" href="#to contact">FAQ</</a>
+
+</li>
+
+
+
+</ul>
+
+</div>
+
+</div>
+
+</nav></div><br /><br /><br /><br /><br />
+        <asp:Panel ID="Panel1" runat="server">
+              <div class="text-center">
+                 
+       <h1 style="color:brown;"> Get in touch </h1>
+         <br />
+        <h5 style="color:black;"> Want to get in touch ? We’d love to heare from you. Here is how you can reach us..</h5>
+      <br /><br /><br />     
+
+          
+Phone number: <br />05505055 <br /><br /><br />
+Email:     <a href="mailto:graduationProjectGP3@gmail.com">graduationProjectGP3@gmail.com</a><br />
+   
+                  </div>
+              </asp:Panel>
+    </form>
+    
+</body>
+</html>
