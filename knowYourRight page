@@ -1,0 +1,55 @@
+<form id="form1" runat="server">
+ <div>  
+                <strong>  
+                    <span class="style6">Insert Data into Database</span>  
+                </strong>  
+                <br />  
+                <table style="width:100%;">  
+                    <tr>  
+                        <td class="auto-style1">  
+ </td>  
+                        <td class="auto-style1">  
+ </td>  
+                        <td class="auto-style1">  
+ </td>  
+                    </tr>  
+                    <tr>  
+                        <td class="style1">  
+                            ID </td>  
+                        <td class="style2">  
+                            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>  
+                        </td>  
+                        <td>  
+ </td>  
+                    </tr>  
+                    <tr>  
+                        <td class="style1">  
+                            Subject</td>  
+                        <td class="style2">  
+                            <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>  
+                        </td>  
+                        <td>  
+ </td>  
+                    </tr>  
+                    <tr>  
+                        <td class="auto-style1">  
+                            Content</td>  
+                        <td class="auto-style1">  
+                            <asp:TextBox ID="TextBox2" runat="server" Height="228px" TextMode="MultiLine" Width="365px"></asp:TextBox>  
+                        </td>  
+                        <td class="auto-style1">  
+ </td>  
+                    </tr>  
+                     
+
+                        <td class="style2">  
+                            <asp:Button ID="Button1" runat="server" BorderColor="#CCFF66"   
+ForeColor="#0066FF" onclick="Button1_Click" Text="Insert " />  
+                        </td>  
+                        <td>  
+                            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>  
+                        </td>  
+                    </tr>  
+                </table>  
+            </div>  
+    </form>
