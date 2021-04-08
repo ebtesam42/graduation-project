@@ -1,3 +1,4 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="traineEditpro.aspx.cs" Inherits="law.traineEditpro" %>
 
 <!DOCTYPE html>
 
