@@ -16,7 +16,7 @@ namespace law
         {
             string mainconn = ConfigurationManager.ConnectionStrings["lawbrellaConnectionString"].ConnectionString;
             SqlConnection conn = new SqlConnection(mainconn);
-            string sqlquery = "Select img, fname, job_title from Lawyer";
+            string sqlquery = "Select ImageUrl, fname, job_title from Lawyer";
             SqlCommand sqlcomm = new SqlCommand(sqlquery, conn);
             conn.Open();
             SqlDataAdapter da = new SqlDataAdapter();
