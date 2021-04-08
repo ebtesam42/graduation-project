@@ -1,3 +1,3 @@
 <connectionStrings>
-    <add name="DBCS" connectionString="Data Source=.\Sqlexpress;Initial Catalog=lawbrella;Integrated Security=True" />
-  </connectionStrings>
+<add name="lawbrellaConnectionString" connectionString="Data Source=.\Sqlexpress;Initial Catalog=lawbrella;Integrated Security=True"
+      providerName="System.Data.SqlClient" />  </connectionStrings>
