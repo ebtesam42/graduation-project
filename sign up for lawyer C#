@@ -1,0 +1,72 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Data.SqlClient;
+using System.Configuration;
+using System.IO;
+
+
+namespace law
+{
+    public partial class signup : System.Web.UI.Page
+    {
+
+
+
+
+
+        protected void Button1_Click1(object sender, EventArgs e)
+        {
+
+            if (FileUpload1.PostedFile != null)
+            {
+                string path = Path.GetExtension(FileUpload1.PostedFile.FileName);
+                if (path != ".jpg" && path != ".jpeg" && path != ".gif" && path != ".png")
+                {
+                    LblUpload.Text = "Only Image type .jpeg, .jpg, .gif, .png, allowed";
+                }
+                else
+                {
+                    LblUpload.Text = " Image upload successfuly !";
+
+                }
+                string fileimag = Path.GetFileName(FileUpload1.PostedFile.FileName);
+                FileUpload1.SaveAs(Server.MapPath("~/userimg/") + fileimag);
+
+                String gen;
+                if (RadioButton1.Checked) { gen = "Male"; }
+                else { gen = "Female"; }
+
+                string mainconn = ConfigurationManager.ConnectionStrings["lawbrellaConnectionString"].ConnectionString;
+                SqlConnection conn = new SqlConnection(mainconn);
+                string sql;
+                sql = "Insert into [Lawyer] (fname, gender, email, password, phone, job_title, username, lawyers_license_number, ImageUrl) Values (@fname, @gender, @email, @password, @phone, @job_title, @username, @lawyers_license_number, @ImageUrl)";
+                SqlCommand comm = new SqlCommand(sql, conn);
+                conn.Open();
+                comm.Parameters.AddWithValue("@fname", TextBox2.Text);
+                comm.Parameters.AddWithValue("@gender", gen);
+                comm.Parameters.AddWithValue("@email", TextBox4.Text);
+                comm.Parameters.AddWithValue("@password", TextBox5.Text);
+                comm.Parameters.AddWithValue("@phone", TextBox6.Text);
+                comm.Parameters.AddWithValue("@job_title", TextBox7.Text);
+                comm.Parameters.AddWithValue("@username", TextBox8.Text);
+                comm.Parameters.AddWithValue("@lawyers_license_number", TextBox9.Text);
+                comm.Parameters.AddWithValue("@ImageUrl", "~/userimg/" + fileimag);
+                comm.ExecuteNonQuery();
+                Label1.Text = "  That's true ";
+            }
+
+
+            else
+            {
+                Label1.Text = " Image has been not uploaded successfully ";
+
+            }
+
+
+        }
+        }
+    }
