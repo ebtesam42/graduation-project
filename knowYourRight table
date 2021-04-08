@@ -1,0 +1,6 @@
+CREATE TABLE [dbo].[knowYourRight]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [content] NVARCHAR(MAX) NULL, 
+    [subject] NVARCHAR(50) NULL
+)
