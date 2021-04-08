@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[Events]
+(
+		[EventID] [int] IDENTITY(1,1) NOT NULL,
+	[Title] [nvarchar](100) NOT NULL,
+	[Description] [nvarchar](200) NULL,
+	[StartAt] [datetime] NOT NULL,
+	[EndAt] [datetime] NULL,
+	[IsFullDay] [bit] NOT NULL,
+)
