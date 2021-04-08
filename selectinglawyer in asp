@@ -93,7 +93,7 @@
     <table>
         <tr>
             
-            <td> <asp:Image ID="Image1" runat="server" ImageUrl='C#<%#Eval("img") %>' /></td>
+            <td> <asp:Image ID="Image1" runat="server" ImageUrl='<%#Eval("ImageUrl") %>' /></td>
         </tr>
         <br /><br />
         <tr>
@@ -123,3 +123,4 @@
     </form>
 </body>
 </html>
+
