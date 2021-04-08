@@ -1,0 +1,27 @@
+<form id="form1" runat="server">
+    <div>
+
+        <br />
+        <br />
+        أعرف حقك&nbsp;&nbsp;
+        <br />
+        <br />
+        <br />Enter the subject:&nbsp;
+        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Ok" />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    <asp:Label ID="labelname1" runat="server" Text="Label"></asp:Label>
+
+        <br /><br />
+        <br />
+        <br /><br /><br /><br />
+
+    <asp:Label ID="labelage1" runat="server" Text="Label"></asp:Label><br />
+    
+    </div>
+    </form>
