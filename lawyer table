@@ -1,13 +1,14 @@
 CREATE TABLE [dbo].[Lawyer] (
-    [id]                     INT           NOT NULL,
+    [id]                     INT           IDENTITY (1, 1) NOT NULL,
     [fname]                  NVARCHAR (50) NOT NULL,
     [gender]                 NVARCHAR (50) NOT NULL,
     [email]                  NVARCHAR (50) NOT NULL,
     [password]               NVARCHAR (50) NOT NULL,
     [phone]                  NVARCHAR (50) NOT NULL,
-    [jop_title]              NVARCHAR (50) NOT NULL,
+    [job_title]              NVARCHAR (50) NOT NULL,
     [username]               NVARCHAR (50) NOT NULL,
     [lawyers_license_number] NVARCHAR (50) NOT NULL,
+    [ImageUrl]               NVARCHAR (50) NULL,
     PRIMARY KEY CLUSTERED ([id] ASC)
 );
 
