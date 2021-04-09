@@ -19,16 +19,15 @@ namespace law
         protected void Button1_Click(object sender, EventArgs e)
         {
 
-            SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\asus\Documents\law.mdf;Integrated Security=True;Connect Timeout=30");
+            SqlConnection conn = new SqlConnection(@"Data Source=.\Sqlexpress;Initial Catalog=lawbrella;Integrated Security=True");
             String sql;
-            sql = "Insert into [knowYourRight] values ('" + TextBox1.Text + "', '" + TextBox2.Text + "' , '" + TextBox3.Text + "')";
+            sql = "Insert into [knowYourRight] values ('" + TextBox2.Text + "' , '" + TextBox3.Text + "')";
             SqlCommand comm = new SqlCommand(sql, conn);
 
             try
             {
                 conn.Open();
                 comm.ExecuteNonQuery();
-                TextBox1.Text = "";
                 TextBox2.Text = "";
                 TextBox3.Text = "";
                 Label1.Text = "THAT'S true";
@@ -45,4 +44,4 @@ namespace law
 
         }
     }
-    }
+}
