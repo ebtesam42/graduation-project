@@ -17,6 +17,15 @@
     <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     
+    <style type="text/css">
+        .auto-style1 {
+            height: 66px;
+        }
+        .auto-style2 {
+            height: 32px;
+        }
+    </style>
+    
 </head>
 
 <body>
@@ -75,10 +84,6 @@
 
 </nav><br /><br /><br /><br /><br /><br /><br /><br />
  <div>  
-                <strong>  
-                    <span class="style6">Insert Data into Database</span>  
-                </strong>  
-                <br />  
                 <table style="width:100%;">  
                     <tr>  
                         <td class="auto-style1">  
@@ -89,21 +94,29 @@
  </td>  
                     </tr>  
                     <tr>  
-                        <td class="style1">  
-                            &nbsp;</td>  
-                        <td class="style2">  
-                            &nbsp;</td>  
-                        <td>  
+                        <td class="auto-style2">  
+                            </td>  
+                        <td class="auto-style2">  
+                            </td>  
+                        <td class="auto-style2">  
  </td>  
                     </tr>  
                     <tr>  
-                        <td class="style1">  
-                            Subject</td>  
-                        <td class="style2">  
-                            <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>  
+                        <td class="auto-style1">  
+                            Subject<br />
+                            <br />
+                            <br />
                         </td>  
-                        <td>  
+                        <td class="auto-style1">  
+                            <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>  
+                            <br />
+                            <br />
+                            <br />
+                        </td>  
+                        <td class="auto-style1"> 
+                            
  </td>  
+
                     </tr>  
                     <tr>  
                         <td class="auto-style1">  
@@ -118,10 +131,10 @@
 
                         <td class="style2">  
                             <asp:Button ID="Button1" runat="server" BorderColor="#CCFF66"   
-ForeColor="#0066FF" onclick="Button1_Click" Text="Insert " />  
+ForeColor="#CC3300" onclick="Button1_Click" Text="Insert " />  
                         </td>  
                         <td>  
-                            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>  
+                            <asp:Label ID="Label1" runat="server"></asp:Label>  
                         </td>  
                     </tr>  
                 </table>  
@@ -142,4 +155,5 @@ ForeColor="#0066FF" onclick="Button1_Click" Text="Insert " />
     </form>
 </body>
 </html>
+
 
