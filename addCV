@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title><meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    
+</head>
+
+<body>
+    
+    <form id="form1" runat="server">
+
+         <!-- Navigation -->
+
+<nav style="background-color: rgba(0,0,0,0.5); height:45px;" class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+
+<div class="container">
+
+<a class="navbar-brand js-scroll-trigger" href="#page-top">Lawbrella</a></br></br>
+
+
+
+
+<i class="fas fa-bars"></i>
+
+
+<div class="collapse navbar-collapse" id="navbarResponsive">
+
+<ul class="navbar-nav text-uppercase ml-auto">
+
+<li class="nav-item">
+
+<a class="nav-link js-scroll-trigger" href="home.aspx">Home</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link js-scroll-trigger" href="aboutus">About us</a>
+
+
+
+<li class="nav-item">
+
+<a class="nav-link js-scroll-trigger" href="ourpolicy">Our policy </a>
+
+&nbsp;</li>
+
+<li class="nav-item">
+
+<a class="nav-link js-scroll-trigger" href="#to contact">FAQ</</a>
+
+</li>
+
+
+
+</ul>
+
+</div>
+
+</div>
+ 
+</nav><br />
+        
+        <br /><br /><br /><br /><br /><br /><br />
+
+        
+           <h3> Add CV</h3>
+ <div>  
+                Add extra information to improve your CV<br />  
+                <table style="width:100%;">  
+                    <tr>  
+                        <td class="auto-style1">  
+ </td>  
+                        <td class="auto-style1">  
+ </td>  
+                        <td class="auto-style1">  
+ </td>  
+                    </tr>  
+                    <tr>  
+                        <td class="style1">  
+                            &nbsp;</td>  
+                        <td class="style2">  
+                            &nbsp;</td>  
+                        <td>  
+ </td>  
+                    </tr>  
+                    <tr>  
+                        <td class="style1">  
+                            Courses :</td>  
+                        <td class="style2">  
+                            <asp:TextBox ID="TextBox3" runat="server" Height="102px" TextMode="MultiLine" Width="270px"></asp:TextBox>  
+                        </td>  
+                        <td>  
+ </td>  
+                    </tr>  
+                     <tr>  
+                        <td class="style1">  
+                            Languages :</td>  
+                        <td class="style2">  
+                            <br />
+                            <asp:TextBox ID="TextBox1" runat="server" Height="102px" TextMode="MultiLine" Width="269px"></asp:TextBox>  
+                        </td>  
+                        <td>  
+ </td>  
+                    </tr>  
+                             <tr>  
+                        <td class="style1">  
+                            Experience :</td>  
+                        <td class="style2">  
+                            <br />
+                            <asp:TextBox ID="TextBox4" runat="server" Height="102px" TextMode="MultiLine" Width="269px"></asp:TextBox>  
+                        </td>  
+                        <td>  
+ </td>  
+                    </tr>
+                                             <tr>  
+                        <td class="style1">  
+                            The university :</td>  
+                        <td class="style2">  
+                            <br />
+                            <asp:TextBox ID="TextBox5" runat="server" Height="33px" Width="270px"></asp:TextBox>  
+                        </td>  
+                        <td>  
+ </td>  
+                    </tr>
+                                                       <tr>  
+                        <td class="style1">  
+                            <br />
+                            Specialty in :</td>  
+                        <td class="style2">  
+                            <br />
+                            <asp:TextBox ID="TextBox6" runat="server" Height="33px" Width="271px"></asp:TextBox>  
+                        </td>  
+                        <td>  
+ </td>  
+
+                    </tr>
+ 
+                     
+                  
+                        <td class="style2">  
+                                </br>  </br>
+                            <asp:Button ID="Button1" runat="server" BorderColor="#CCFF66"   
+ForeColor="#CC3300" onclick="Button1_Click" Text="Add CV" />  
+                        </td>  
+                        <td>  
+                            <asp:Label ID="Label1" runat="server"></asp:Label>  
+                        </td>  
+                    </tr>  
+                </table>  
+            </div>  
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-left">Copyright © Lawbrella 2021</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="https://mobile.twitter.com/login"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome"><i class="fab fa-snapchat"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+    </form>
+</body>
+</html>
