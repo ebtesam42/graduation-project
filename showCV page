@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title><meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    
+    <style type="text/css">
+        .auto-style1 {
+            height: 66px;
+        }
+        .auto-style3 {
+            height: 66px;
+            width: 202px;
+        }
+        .auto-style5 {
+            width: 202px;
+        }
+        .auto-style6 {
+            height: 35px;
+            width: 202px;
+        }
+        .auto-style7 {
+            height: 35px;
+        }
+        .auto-style8 {
+            height: 30px;
+            width: 202px;
+        }
+        .auto-style9 {
+            height: 30px;
+        }
+        .auto-style10 {
+            width: 195px;
+            height: 197px;
+        }
+    </style>
+    
+</head>
+
+<body>
+    
+    <form id="form1" runat="server">
+
+         <!-- Navigation -->
+
+<nav style="background-color: rgba(0,0,0,0.5); height:45px;" class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+
+<div class="container">
+
+<a class="navbar-brand js-scroll-trigger" href="#page-top">Lawbrella</a></br></br>
+
+
+
+
+<i class="fas fa-bars"></i>
+
+
+<div class="collapse navbar-collapse" id="navbarResponsive">
+
+<ul class="navbar-nav text-uppercase ml-auto">
+
+<li class="nav-item">
+
+<a class="nav-link js-scroll-trigger" href="home.aspx">Home</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link js-scroll-trigger" href="aboutus">About us</a>
+
+
+
+<li class="nav-item">
+
+<a class="nav-link js-scroll-trigger" href="ourpolicy">Our policy </a>
+
+&nbsp;</li>
+
+<li class="nav-item">
+
+<a class="nav-link js-scroll-trigger" href="#to contact">FAQ</a>
+
+</li>
+
+
+
+</ul>
+
+</div>
+
+</div>
+
+</nav><br /><br /><br /><br /><br /><br /><br /><br />
+ <div>  
+                <table style="width:100%;">  
+                     <tr>  
+                        <td class="auto-style6">  
+                            </td>  
+                        <td class="auto-style7">  
+                      
+                     
+                            &nbsp;</td>  
+                    </tr>  
+                    <tr>  
+                        <td class="auto-style6">  
+                            <img alt="q" class="auto-style10" src="img/WhatsApp%20Image%202021-04-11%20at%202.17.45%20AM.jpeg" /></td>  
+                        <td class="auto-style7">  
+                      <h3>
+                          &nbsp;</h3>
+                            <h3 style ="color:#FED136">
+                          &nbsp;
+                          Welcome in my profile
+                      </h3>
+
+<a class="nav-link js-scroll-trigger" href="#to contact"><span style="color: lightgreen; font-family: &quot;Helvetica Neue&quot;, &quot;Noto Naskh Arabic UI&quot;, Arial, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: right; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">إنَّ اللَّهَ يَأْمُرُكُمْ أَنْ تُؤَدُّوا الْأَمَانَاتِ إِلَى أَهْلِهَا وَإِذَا حَكَمْتُمْ بَيْنَ النَّاسِ أَنْ تَحْكُمُوا بِالْعَدْلِ إِنَّ اللَّهَ نِعِمَّا يَعِظُكُمْ بِهِ إِنَّ اللَّهَ كَانَ سَمِيعًا بَصِيرًا</span></a>&nbsp;</td>  
+                    </tr>  
+                    <tr>  
+                        <td class="auto-style8">  
+                            &nbsp;</td>  
+                        <td class="auto-style9">  
+                            &nbsp;</td>  
+                    </tr>  
+                    <tr>  
+                        <td class="auto-style5">  
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+                            Lawyer Name:         <td>  
+                            <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
+                            <br />
+                     
+                        </td>  
+
+                    </tr>  
+                    <tr>  
+                        <td class="auto-style3">  
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+                            Courses :</td>  
+                        <td class="auto-style1">  
+                            <asp:Label ID="Label3" runat="server" ForeColor="#FED136"></asp:Label>
+                        </td>  
+                    </tr>  
+                          <tr>  
+                        <td class="auto-style3">  
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+                            Language :</td>  
+                        <td class="auto-style1">  
+                            <asp:Label ID="Label4" runat="server" ForeColor="#FED136"></asp:Label>
+                        </td>  
+                    </tr>     
+                    <tr>
+                        <td class="auto-style3">  
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+                            Expereicne :</td>  
+                        <td class="auto-style1">  
+                            <asp:Label ID="Label6" runat="server" ForeColor="#FED136"></asp:Label>
+                        </td>  
+                        </tr>
+                    <tr>
+                        <td class="auto-style3">  
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+                            University :</td>  
+                        <td class="auto-style1">  
+                            <asp:Label ID="Label7" runat="server" ForeColor="#FED136"></asp:Label>
+                        </td>  
+                        </tr>
+                    <tr>
+                        <td class="auto-style3">  
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+                            Speciality :</td>  
+                        <td class="auto-style1">  
+                            <asp:Label ID="Label8" runat="server" ForeColor="#FED136"></asp:Label>
+                        </td>  
+                        </tr>
+                    
+                        <td class="auto-style5">  
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:Button ID="Button1" runat="server" BorderColor="#CCFF66"   
+ForeColor="Black" onclick="Button1_Click" Text="Show" Width="127px" />  
+                        </td>  
+                        <td>  
+                            <asp:Label ID="Label1" runat="server"></asp:Label>  
+                        </td>  
+                    </tr>  
+                </table>  
+            </div>  
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-left">Copyright © Lawbrella 20212021</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="https://mobile.twitter.com/login"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome"><i class="fab fa-snapchat"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+    </form>
+</body>
+</html>
