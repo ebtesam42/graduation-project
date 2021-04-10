@@ -50,13 +50,13 @@
 
 <li class="nav-item">
 
-<a class="nav-link js-scroll-trigger" href="aboutus">About us</a>
+<a class="nav-link js-scroll-trigger" href="about us.aspx">About us</a>
 
 
 
 <li class="nav-item">
 
-<a class="nav-link js-scroll-trigger" href="ourpolicy">Our policy </a>
+<a class="nav-link js-scroll-trigger" href="ourpolicy.aspx">Our policy </a>
 
 &nbsp;</li>
 
@@ -145,33 +145,7 @@
 
 
              
-     <section class="page-section" id="services">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">More services</h2>
-                </div>
-                </br>
-                <div class="row text-center">
-                    <div class="col-md-6">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-ad fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3"><a href="translate1.aspx">Advertisment</a></h4>
-                        <p class="text-muted">you can take a look about our ads</p>
-                    </div>
-                    <div class="col-md-6">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class=" fas fa-thumbs-up fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3"><a href="translate2.aspx">Know your rights</a></h4>
-                        <p class="text-muted">Be aware about your rights.</p>
-                    </div>
-                 
-                </div>
-            </div>
-        </section>
+   
 
 
     <section class="page-section bg-light" id="team">
@@ -216,5 +190,21 @@
                 
             </div>
         </section>
+
+         <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-left">Copyright © lawbrella 2021</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="https://mobile.twitter.com/login"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome"><i class="fab fa-snapchat"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+
+
 </body>
 </html>
