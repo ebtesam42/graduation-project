@@ -1,0 +1,55 @@
+using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace WebApplication2
+{
+    public partial class ShowCV : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+
+
+
+            try
+            {
+                SqlConnection con = new SqlConnection(@"Data Source=.\sqlexpress;Integrated Security=True");
+                string str;
+                con.Open();
+
+                str = @"SELECT addCV.Courses, addCV.Languages, addCV.Experience, addCV.The_uni, addCV.Specialty_in, Lawyer.fname from AddCV right join Lawyer on AddCV.fname = Lawyer.fname  
+               WHERE Lawyer.fname='" + TextBox1.Text + "'";
+                SqlCommand com = new SqlCommand(str, con);
+                SqlDataReader reader = com.ExecuteReader();
+                reader.Read();
+                Label3.Text = reader["Courses"].ToString();
+                Label4.Text = reader["Languages"].ToString();
+                Label6.Text = reader["Experience"].ToString();
+                Label7.Text = reader["The_uni"].ToString();
+                Label8.Text = reader["Specialty_in"].ToString();
+                reader.Close();
+                con.Close();
+            }
+
+            catch
+            {
+                Label1.Text = "You've taken the wrong way in entering";
+            }
+           
+
+          
+        }
+
+     
+    }
+}
