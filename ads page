@@ -45,19 +45,19 @@
 
 <li class="nav-item">
 
-<a class="nav-link js-scroll-trigger" href="aboutus">About us</a>
+<a class="nav-link js-scroll-trigger" href="about us.aspx">About us</a>
 
 
 
 <li class="nav-item">
 
-<a class="nav-link js-scroll-trigger" href="ourpolicy">Our policy </a>
+<a class="nav-link js-scroll-trigger" href="ourpolicy.aspx">Our policy </a>
 
 &nbsp;</li>
 
 <li class="nav-item">
 
-<a class="nav-link js-scroll-trigger" href="#to contact">FAQ</</a>
+<a class="nav-link js-scroll-trigger" href="faq.aspx">FAQ</</a>
 
 </li>
 
@@ -93,6 +93,20 @@
         </asp:UpdatePanel>
         
         </div></center>
+        <br /><br /><br />
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-left">Copyright © Lawbrella 2021</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="https://mobile.twitter.com/login"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome"><i class="fab fa-snapchat"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
     </form>
 </body>
 </html>
