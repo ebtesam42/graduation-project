@@ -1,3 +1,5 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ads page.aspx.cs" Inherits="law.ads_page" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
