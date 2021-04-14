@@ -1,4 +1,4 @@
-
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="aaddCV.aspx.cs" Inherits="law.aaddCV" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -17,6 +17,19 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+    
+    <style type="text/css">
+        .auto-style1 {
+            height: 71px;
+        }
+        .auto-style2 {
+            height: 71px;
+            width: 249px;
+        }
+        .auto-style3 {
+            width: 249px;
+        }
+    </style>
     
 </head>
 
@@ -62,7 +75,7 @@
 
 <li class="nav-item">
 
-<a class="nav-link js-scroll-trigger" href="#to contact">FAQ</</a>
+<a class="nav-link js-scroll-trigger" href="#to contact">FAQ</a>
 
 </li>
 
@@ -79,12 +92,13 @@
         <br /><br /><br /><br /><br /><br /><br />
 
         
-           <h3> Add CV</h3>
+           <h1 style="color:#FED136"> &nbsp;&nbsp;&nbsp; Add CV</h1>
  <div>  
-                Add extra information to improve your CV<br />  
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Add an extra information to improve your CV<br />  
                 <table style="width:100%;">  
                     <tr>  
-                        <td class="auto-style1">  
+                        <td class="auto-style2">  
  </td>  
                         <td class="auto-style1">  
  </td>  
@@ -92,71 +106,85 @@
  </td>  
                     </tr>  
                     <tr>  
-                        <td class="style1">  
-                            &nbsp;</td>  
+                        <td class="auto-style3">  
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Full Name :<br />
+                            <br />
+                        </td>  
                         <td class="style2">  
-                            &nbsp;</td>  
+                            <asp:TextBox ID="Textfn" runat="server" Height="33px" Width="271px"></asp:TextBox>  
+                            <br />
+                            <br />
+                        </td>  
                         <td>  
  </td>  
                     </tr>  
                     <tr>  
-                        <td class="style1">  
+                        <td class="auto-style3">  
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
                             Courses :</td>  
                         <td class="style2">  
-                            <asp:TextBox ID="TextBox3" runat="server" Height="102px" TextMode="MultiLine" Width="270px"></asp:TextBox>  
+                            <asp:TextBox ID="Textco" runat="server" Height="102px" TextMode="MultiLine" Width="270px"></asp:TextBox>  
                         </td>  
                         <td>  
  </td>  
                     </tr>  
                      <tr>  
-                        <td class="style1">  
+                        <td class="auto-style3">  
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
                             Languages :</td>  
                         <td class="style2">  
                             <br />
-                            <asp:TextBox ID="TextBox1" runat="server" Height="102px" TextMode="MultiLine" Width="269px"></asp:TextBox>  
+                            <asp:TextBox ID="Textlan" runat="server" Height="102px" TextMode="MultiLine" Width="269px"></asp:TextBox>  
                         </td>  
                         <td>  
  </td>  
                     </tr>  
                              <tr>  
-                        <td class="style1">  
+                        <td class="auto-style3">  
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
                             Experience :</td>  
                         <td class="style2">  
                             <br />
-                            <asp:TextBox ID="TextBox4" runat="server" Height="102px" TextMode="MultiLine" Width="269px"></asp:TextBox>  
+                            <asp:TextBox ID="Textex" runat="server" Height="102px" TextMode="MultiLine" Width="269px"></asp:TextBox>  
                         </td>  
                         <td>  
  </td>  
                     </tr>
                                              <tr>  
-                        <td class="style1">  
+                        <td class="auto-style3">  
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
                             The university :</td>  
                         <td class="style2">  
                             <br />
-                            <asp:TextBox ID="TextBox5" runat="server" Height="33px" Width="270px"></asp:TextBox>  
+                            <asp:TextBox ID="Textuni" runat="server" Height="33px" Width="270px"></asp:TextBox>  
                         </td>  
                         <td>  
  </td>  
                     </tr>
                                                        <tr>  
-                        <td class="style1">  
+                        <td class="auto-style2">  
                             <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             Specialty in :</td>  
-                        <td class="style2">  
+                        <td class="auto-style1">  
                             <br />
-                            <asp:TextBox ID="TextBox6" runat="server" Height="33px" Width="271px"></asp:TextBox>  
+                            <asp:TextBox ID="Textsp" runat="server" Height="33px" Width="271px"></asp:TextBox>  
                         </td>  
-                        <td>  
+                        <td class="auto-style1">  
  </td>  
 
+
                     </tr>
+      
  
                      
                   
-                        <td class="style2">  
-                                </br>  </br>
-                            <asp:Button ID="Button1" runat="server" BorderColor="#CCFF66"   
-ForeColor="#CC3300" onclick="Button1_Click" Text="Add CV" />  
+                        <td class="auto-style3">  
+                                </br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <asp:Button ID="Button1" runat="server" BorderColor="White"   
+ForeColor="Black" onclick="Button1_Click" Text="Add CV" BackColor="#DADADA" BorderStyle="Solid" Width="173px" />  
+                                </br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
                         </td>  
                         <td>  
                             <asp:Label ID="Label1" runat="server"></asp:Label>  
