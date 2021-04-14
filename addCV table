@@ -1,11 +1,10 @@
 CREATE TABLE [dbo].[AddCV] (
     [Id]           INT           IDENTITY (1, 1) NOT NULL,
+    [fname]        NVARCHAR (50) NULL,
     [Courses]      NVARCHAR (50) NULL,
-    [Languages]    NVARCHAR (50) NULL,
     [Experience]   NVARCHAR (50) NULL,
+    [Languages]    NVARCHAR (50) NULL,
     [The_uni]      NVARCHAR (50) NULL,
     [Specialty_in] NVARCHAR (50) NULL,
-    [fname] NVARCHAR(50) NULL, 
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
-
