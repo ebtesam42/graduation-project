@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -43,8 +44,9 @@
             height: 30px;
         }
         .auto-style10 {
-            width: 195px;
+            width: 212px;
             height: 197px;
+            margin-left: 18px;
         }
     </style>
     
@@ -126,7 +128,13 @@
                           Welcome in my profile
                       </h3>
 
-<a class="nav-link js-scroll-trigger" href="#to contact"><span style="color: lightgreen; font-family: &quot;Helvetica Neue&quot;, &quot;Noto Naskh Arabic UI&quot;, Arial, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: right; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">إنَّ اللَّهَ يَأْمُرُكُمْ أَنْ تُؤَدُّوا الْأَمَانَاتِ إِلَى أَهْلِهَا وَإِذَا حَكَمْتُمْ بَيْنَ النَّاسِ أَنْ تَحْكُمُوا بِالْعَدْلِ إِنَّ اللَّهَ نِعِمَّا يَعِظُكُمْ بِهِ إِنَّ اللَّهَ كَانَ سَمِيعًا بَصِيرًا</span></a>&nbsp;</td>  
+<a class="nav-link js-scroll-trigger" href="#to contact"><span style="color: lightgreen; font-family: &quot;Helvetica Neue&quot;, &quot;Noto Naskh Arabic UI&quot;, Arial, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: right; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">إنَّ اللَّهَ يَأْمُرُكُمْ أَنْ تُؤَدُّوا الْأَمَانَاتِ إِلَى أَهْلِهَا وَإِذَا حَكَمْتُمْ بَيْنَ النَّاسِ أَنْ تَحْكُمُوا بِالْعَدْلِ إِنَّ اللَّهَ نِعِمَّا يَعِظُكُمْ بِهِ إِنَّ اللَّهَ كَانَ سَمِيعًا بَصِيرًا</span></a>&nbsp;<br />
+                            <br />
+                            <asp:Button ID="Button2" runat="server" BorderColor="White"   
+ForeColor="Black" onclick="Button1_Click" Text="Consult" Width="146px" BackColor="#DADADA" BorderStyle="Solid" />  
+                        &nbsp;&nbsp;&nbsp;&nbsp; <asp:Button ID="Button3" runat="server" BorderColor="White"   
+ForeColor="Black" onclick="Button1_Click" Text="Evaluate" Width="146px" BackColor="#DADADA" BorderStyle="Solid" />  
+                        </td>  
                     </tr>  
                     <tr>  
                         <td class="auto-style8">  
@@ -138,7 +146,7 @@
                         <td class="auto-style5">  
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
                             Lawyer Name:         <td>  
-                            <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
+                            <asp:TextBox ID="TextBox1" runat="server" ></asp:TextBox>
                             <br />
                      
                         </td>  
@@ -186,8 +194,8 @@
                         </tr>
                     
                         <td class="auto-style5">  
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:Button ID="Button1" runat="server" BorderColor="#CCFF66"   
-ForeColor="Black" onclick="Button1_Click" Text="Show" Width="127px" />  
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:Button ID="Button1" runat="server" BorderColor="White"   
+ForeColor="Black" onclick="Button1_Click" Text="Show" Width="127px" BackColor="#DADADA" BorderStyle="Solid" />  
                         </td>  
                         <td>  
                             <asp:Label ID="Label1" runat="server"></asp:Label>  
